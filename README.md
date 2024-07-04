@@ -26,6 +26,6 @@ The Farmer Data Collection Module is a part of the CROPSIGHT - Farm Management S
 **Clone the repository**:
 
    ```sh
-   git clone https://github.com/yourusername/cropsight-farm-management-system.git
+   git clone https://github.com/lighteagle/farmer-collection-basic-python.git
    cd cropsight-farm-management-system/farmer-data-collection
    ```
