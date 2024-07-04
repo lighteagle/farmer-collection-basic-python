@@ -19,7 +19,7 @@ The Farmer Data Collection Module is a part of the CROPSIGHT - Farm Management S
 - **Age**: The age of the farmer (up to 3 digits).
 - **Commodity**: The main commodity produced by the farmer (up to 20 characters).
 - **Village**: The village where the farmer resides (up to 20 characters).
-- **Kabupaten**: The district where the farmer resides (up to 20 characters).
+- **District**: The district where the farmer resides (up to 20 characters).
 
 ### Installation
 
