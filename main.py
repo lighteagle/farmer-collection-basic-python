@@ -47,7 +47,7 @@ def get_valid_age(prompt):
             if 0 < age < 300:
                 return age
             else:
-                print_color("Age must be a positive number between 1 and 129. Please try again.", "FAIL")
+                print_color("Age must be a positive number between 1 and 299. Please try again.", "FAIL")
         except ValueError:
             print_color("Invalid age. Please enter a number.", "FAIL")
 
@@ -122,12 +122,8 @@ def search_farmers():
         print_farmer_table(results)
     else:
         print_color("No matching farmers found.", "WARNING")
-
-def main():
-    global farmers
-    farmers = load_farmers()
-    
-    while True:
+        
+def print_main_menu():
         print("\n-------------------------------------------------")
         print_color("CROPSIGHT - Farm Management System:", "HEADER")
         print("-------------------------------------------------")
@@ -138,6 +134,13 @@ def main():
         print_color("4. Delete a farmer",'OKGREEN')
         print_color("5. Search farmers",'OKGREEN')
         print_color("6. Exit","OKGREEN")
+        
+def main():
+    global farmers
+    farmers = load_farmers()
+    
+    while True:
+        print_main_menu()
         choice = input("\nEnter your choice [1-6]: ")
 
         if choice == '1':
