@@ -138,7 +138,7 @@ def main():
         print_color("4. Delete a farmer",'OKGREEN')
         print_color("5. Search farmers",'OKGREEN')
         print_color("6. Exit","OKGREEN")
-        choice = input("\nEnter your choice: ")
+        choice = input("\nEnter your choice [1-6]: ")
 
         if choice == '1':
             create_farmer()
