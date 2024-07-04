@@ -44,7 +44,7 @@ def get_valid_age(prompt):
     while True:
         try:
             age = int(get_non_empty_input(prompt, 3))
-            if 0 < age < 130:
+            if 0 < age < 300:
                 return age
             else:
                 print_color("Age must be a positive number between 1 and 129. Please try again.", "FAIL")
