@@ -77,6 +77,7 @@ def print_farmer_table(farmers):
     for farmer in farmers:
         print(f"| {farmer['id']:<10} | {farmer['name']:<50} | {farmer['age']:<3} | {farmer['commodity']:<20} | {farmer['village']:<20} | {farmer['district']:<20} |")
     print("+------------+----------------------------------------------------+-----+----------------------+----------------------+----------------------+\n")
+    print_color(f"{len(farmers)} farmers found.", "OKGREEN")
 
 def read_farmers():
     if not farmers:
