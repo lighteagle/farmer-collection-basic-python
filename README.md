@@ -6,11 +6,11 @@ The Farmer Data Collection Module is a part of the CROPSIGHT - Farm Management S
 
 ### Features
 
-- **Create** new farmer records with fields: ID, Name, Age, Commodity, Village, and Kabupaten.
+- **Create** new farmer records with fields: ID, Name, Age, Commodity, Village, and District.
 - **Read** and display all farmer records in a formatted table.
 - **Update** existing farmer records.
 - **Delete** farmer records.
-- **Search** farmer records based on Name, Commodity, Village, or Kabupaten.
+- **Search** farmer records based on Name, Commodity, Village, or District.
 
 ### Farmer Data Fields
 
