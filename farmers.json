@@ -1,0 +1,402 @@
+[
+  {
+    "id": "F000000001",
+    "name": "Budi Santoso",
+    "age": 45,
+    "commodity": "Rice",
+    "village": "Curug",
+    "district": "Bogor"
+  },
+  {
+    "id": "F000000002",
+    "name": "Siti Nurhaliza",
+    "age": 38,
+    "commodity": "Coffee",
+    "village": "Pasir Jaya",
+    "district": "Bogor"
+  },
+  {
+    "id": "F000000003",
+    "name": "Agus Wibowo",
+    "age": 50,
+    "commodity": "Corn",
+    "village": "Pasir Jaya",
+    "district": "Bogor"
+  },
+  {
+    "id": "F000000004",
+    "name": "Dewi Lestari",
+    "age": 28,
+    "commodity": "Cocoa",
+    "village": "Curug",
+    "district": "Bogor"
+  },
+  {
+    "id": "F000000005",
+    "name": "Dedi Setiawan",
+    "age": 40,
+    "commodity": "Rice",
+    "village": "Pasir Jaya",
+    "district": "Bogor"
+  },
+  {
+    "id": "F000000006",
+    "name": "Tuti Astuti",
+    "age": 35,
+    "commodity": "Corn",
+    "village": "Pasir Jaya",
+    "district": "Bogor"
+  },
+  {
+    "id": "F000000007",
+    "name": "Bambang Suharto",
+    "age": 52,
+    "commodity": "Coffee",
+    "village": "Curug",
+    "district": "Bogor"
+  },
+  {
+    "id": "F000000008",
+    "name": "Andi Wijaya",
+    "age": 44,
+    "commodity": "Cocoa",
+    "village": "Pasir Jaya",
+    "district": "Bogor"
+  },
+  {
+    "id": "F000000009",
+    "name": "Sri Wahyuni",
+    "age": 33,
+    "commodity": "Rice",
+    "village": "Bubulak",
+    "district": "Bogor"
+  },
+  {
+    "id": "F000000010",
+    "name": "Rudi Hartono",
+    "age": 47,
+    "commodity": "Corn",
+    "village": "Bubulak",
+    "district": "Bogor"
+  },
+  {
+    "id": "F000000011",
+    "name": "Ahmad Fauzi",
+    "age": 36,
+    "commodity": "Coffee",
+    "village": "Curug",
+    "district": "Bogor"
+  },
+  {
+    "id": "F000000012",
+    "name": "Rina Marlina",
+    "age": 29,
+    "commodity": "Cocoa",
+    "village": "Neglasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000013",
+    "name": "Susilo Bambang",
+    "age": 48,
+    "commodity": "Rice",
+    "village": "Mekarsari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000014",
+    "name": "Ratna Sari",
+    "age": 39,
+    "commodity": "Corn",
+    "village": "Neglasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000015",
+    "name": "Arif Hidayat",
+    "age": 42,
+    "commodity": "Coffee",
+    "village": "Neglasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000016",
+    "name": "Lina Nuraini",
+    "age": 34,
+    "commodity": "Cocoa",
+    "village": "Neglasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000017",
+    "name": "Yanto Purnomo",
+    "age": 51,
+    "commodity": "Rice",
+    "village": "Neglasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000018",
+    "name": "Dwi Lestari",
+    "age": 37,
+    "commodity": "Corn",
+    "village": "Neglasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000019",
+    "name": "Adi Nugroho",
+    "age": 41,
+    "commodity": "Coffee",
+    "village": "Mekarsari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000020",
+    "name": "Susi Susanti",
+    "age": 32,
+    "commodity": "Cocoa",
+    "village": "Mekarsari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000021",
+    "name": "Wahyu Hidayat",
+    "age": 49,
+    "commodity": "Rice",
+    "village": "Neglasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000022",
+    "name": "Dian Pertiwi",
+    "age": 30,
+    "commodity": "Corn",
+    "village": "Neglasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000023",
+    "name": "Hendro Priyono",
+    "age": 46,
+    "commodity": "Coffee",
+    "village": "Neglasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000024",
+    "name": "Lusi Wulandari",
+    "age": 38,
+    "commodity": "Cocoa",
+    "village": "Wanasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000025",
+    "name": "Bayu Nugraha",
+    "age": 43,
+    "commodity": "Rice",
+    "village": "Wanasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000026",
+    "name": "Indah Permata",
+    "age": 35,
+    "commodity": "Corn",
+    "village": "Wanasari",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000027",
+    "name": "Kurniawan Setiawan",
+    "age": 50,
+    "commodity": "Coffee",
+    "village": "Bojongkaso",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000028",
+    "name": "Diana Sari",
+    "age": 29,
+    "commodity": "Cocoa",
+    "village": "Bojongkaso",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000029",
+    "name": "Rahmat Hidayat",
+    "age": 41,
+    "commodity": "Rice",
+    "village": "Bojongkaso",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000030",
+    "name": "Lisa Mariana",
+    "age": 33,
+    "commodity": "Corn",
+    "village": "Bojongkaso",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000031",
+    "name": "Wahyu Utomo",
+    "age": 47,
+    "commodity": "Coffee",
+    "village": "Bojongkaso",
+    "district": "Cianjur"
+  },
+  {
+    "id": "F000000032",
+    "name": "Fitri Andayani",
+    "age": 31,
+    "commodity": "Cocoa",
+    "village": "Cimanggis",
+    "district": "Sukabumi"
+  },
+  {
+    "id": "F000000033",
+    "name": "Joko Susilo",
+    "age": 39,
+    "commodity": "Rice",
+    "village": "Kutajaya",
+    "district": "Sukabumi"
+  },
+  {
+    "id": "F000000034",
+    "name": "Andi Purnama",
+    "age": 45,
+    "commodity": "Corn",
+    "village": "Cimanggis",
+    "district": "Sukabumi"
+  },
+  {
+    "id": "F000000035",
+    "name": "Dedi Santoso",
+    "age": 36,
+    "commodity": "Coffee",
+    "village": "Kutajaya",
+    "district": "Sukabumi"
+  },
+  {
+    "id": "F000000036",
+    "name": "Sri Lestari",
+    "age": 34,
+    "commodity": "Cocoa",
+    "village": "Kutajaya",
+    "district": "Sukabumi"
+  },
+  {
+    "id": "F000000037",
+    "name": "Bambang Haryono",
+    "age": 52,
+    "commodity": "Rice",
+    "village": "Sukamulya",
+    "district": "Sukabumi"
+  },
+  {
+    "id": "F000000038",
+    "name": "Wawan Setiawan",
+    "age": 44,
+    "commodity": "Corn",
+    "village": "Sukamulya",
+    "district": "Sukabumi"
+  },
+  {
+    "id": "F000000039",
+    "name": "Rina Wulandari",
+    "age": 30,
+    "commodity": "Coffee",
+    "village": "Sukamulya",
+    "district": "Sukabumi"
+  },
+  {
+    "id": "F000000040",
+    "name": "Aris Kurniawan",
+    "age": 42,
+    "commodity": "Cocoa",
+    "village": "Cimanggis",
+    "district": "Depok"
+  },
+  {
+    "id": "F000000041",
+    "name": "Lina Permata",
+    "age": 33,
+    "commodity": "Rice",
+    "village": "Sukamulya",
+    "district": "Depok"
+  },
+  {
+    "id": "F000000042",
+    "name": "Ahmad Wijaya",
+    "age": 50,
+    "commodity": "Coffee",
+    "village": "Sukamulya",
+    "district": "Depok"
+  },
+  {
+    "id": "F000000043",
+    "name": "Dini Susanti",
+    "age": 29,
+    "commodity": "Cocoa",
+    "village": "Cimanggis",
+    "district": "Depok"
+  },
+  {
+    "id": "F000000044",
+    "name": "Agus Santoso",
+    "age": 41,
+    "commodity": "Rice",
+    "village": "Mekarjaya",
+    "district": "Depok"
+  },
+  {
+    "id": "F000000045",
+    "name": "Dedi Purnomo",
+    "age": 47,
+    "commodity": "Corn",
+    "village": "Cimanggis",
+    "district": "Depok"
+  },
+  {
+    "id": "F000000046",
+    "name": "Ani Marlina",
+    "age": 38,
+    "commodity": "Coffee",
+    "village": "Sawangan",
+    "district": "Depok"
+  },
+  {
+    "id": "F000000047",
+    "name": "Budi Wibowo",
+    "age": 36,
+    "commodity": "Cocoa",
+    "village": "Mekarjaya",
+    "district": "Depok"
+  },
+  {
+    "id": "F000000048",
+    "name": "Ratna Wijaya",
+    "age": 32,
+    "commodity": "Rice",
+    "village": "Mekarjaya",
+    "district": "Depok"
+  },
+  {
+    "id": "F000000049",
+    "name": "Dian Setiawan",
+    "age": 34,
+    "commodity": "Corn",
+    "village": "Sawangan",
+    "district": "Depok"
+  },
+  {
+    "id": "F000000050",
+    "name": "Wahyu Santoso",
+    "age": 49,
+    "commodity": "Coffee",
+    "village": "Sawangan",
+    "district": "Depok"
+  }
+]
