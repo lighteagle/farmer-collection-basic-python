@@ -22,6 +22,30 @@ The Farmer Data Collection Module is a part of the CROPSIGHT - Farm Management S
 - **Village**: The village where the farmer resides (up to 20 characters).
 - **District**: The district where the farmer resides (up to 20 characters).
 
+### Data Generator
+
+The Data Generator within the Farmer Data Collection Module creates random farmer records using NumPy. This feature allows for the quick generation of sample data to test the functionality of the system. The generator constructs the following fields randomly:
+
+- **ID**: A unique 10-digit string identifier for each farmer, generated using a format like `F000000001`.
+- **Name**: Randomly selected from a predefined list of farmer names.
+- **Age**: Randomly generated as an integer between 18 and 65 to represent the age of the farmer.
+- **Commodity**: Chosen from a predefined list of common agricultural commodities (e.g., rice, corn, soybeans).
+- **Village**: Selected from a list of village names.
+- **District**: Chosen from a list of district names.
+
+#### Implementation
+
+The data generator uses the following NumPy methods:
+
+- **`np.array`**: To create arrays from predefined lists of names, commodities, villages, and districts.
+- **`np.random.randint`**: To generate random ages within a specified range.
+- **`np.random.choice`**: To randomly select names, commodities, villages, and districts from their respective arrays.
+
+By leveraging these methods, the module can efficiently create a diverse set of farmer records for testing and demonstration purposes.
+
+
+
+
 ### Installation
 
 **Clone the repository**:

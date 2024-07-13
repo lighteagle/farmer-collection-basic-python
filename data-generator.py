@@ -117,13 +117,14 @@ name_list = np.array([
     "Yuli Susanti",
     "Zaki Prasetyo"
 ])
-commodity_list = np.array(["Coffee", "Cocoa", "Rice", "Corn"])
-districts_list = np.array(["Bogor", "Cianjur", "Sukabumi", "Depok"])
+commodity_list = np.array(["Coffee", "Cocoa", "Rice", "Corn","Rubber"])
+districts_list = np.array(["Bogor", "Cianjur", "Sukabumi", "Depok", "Jakarta"])
 village_dict = {
     "Bogor": ["Curug", "Pasir Jaya", "Bubulak"],
     "Cianjur": ["Neglasari", "Mekarsari", "Wanasari", "Bojongkaso"],
     "Sukabumi": ["Cimanggis", "Kutajaya", "Sukamulya"],
     "Depok": ["Cimanggis", "Sukamulya", "Mekarjaya", "Sawangan"],
+    "Jakarta": ["Cempaka Putih", "Cipinang", "Mampang", "Pancoran"]
 }
 
 # 3. Generate random farmers
@@ -131,13 +132,16 @@ num_farmers = 1000
 farmers = [] 
 
 districts = np.random.choice(districts_list, size=num_farmers) 
+
 # Generate farmers' information
 for i in range(num_farmers):
     farmer_id = f"F{i+1:09d}"
     farmer_name = np.random.choice(name_list) 
-    farmer_age = np.random.randint(18, 61)
+    farmer_age = np.random.randint(18, 80)
     farmer_commodity = np.random.choice(commodity_list) 
     farmer_village = np.random.choice(village_dict[districts[i]])
+    # print(i+1, farmer_id, farmer_name, farmer_age, farmer_commodity, farmer_village, districts[i])
+    
     
     farmer = {
         "id": farmer_id,
@@ -147,10 +151,11 @@ for i in range(num_farmers):
         "village": farmer_village,
         "district": districts[i]
     }
+    print(farmer)
 
     farmers.append(farmer)
 
-# 4. Export to JSON file
+# # 4. Export to JSON file
 with open('farmers.json','w') as json_file:
     json.dump(farmers, json_file)
 
