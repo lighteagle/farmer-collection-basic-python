@@ -11,6 +11,7 @@ The Farmer Data Collection Module is a part of the CROPSIGHT - Farm Management S
 - **Update** existing farmer records.
 - **Delete** farmer records.
 - **Search** farmer records based on Name, Commodity, Village, or District.
+- **Data Generator** a randomly chosen from a predefined list using numpy
 
 ### Farmer Data Fields
 
@@ -29,4 +30,3 @@ The Farmer Data Collection Module is a part of the CROPSIGHT - Farm Management S
    git clone https://github.com/lighteagle/farmer-collection-basic-python.git
    cd farmer-data-collection
    ```
-   
