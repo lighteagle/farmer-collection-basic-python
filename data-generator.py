@@ -150,7 +150,7 @@ for i in range(num_farmers):
 
     farmers.append(farmer)
 
-# # 4. Export to JSON file
+# 4. Export to JSON file
 with open('farmers.json','w') as json_file:
     json.dump(farmers, json_file)
 
