@@ -139,7 +139,6 @@ for i in range(num_farmers):
     farmer_commodity = np.random.choice(commodity_list) 
     farmer_village = np.random.choice(village_dict[districts[i]])
     
-    print(i+1, farmer_id, farmer_name, farmer_age, farmer_commodity, farmer_village, districts[i])
     farmer = {
         "id": farmer_id,
         "name": farmer_name,
