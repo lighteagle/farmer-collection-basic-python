@@ -1,6 +1,6 @@
 # CROPSIGHT - Farm Management System
 
-## Farmer Data Collection Module
+## Part 1- Farmer Data Collection Module
 
 The Farmer Data Collection Module is a part of the CROPSIGHT - Farm Management System. This module is designed to manage farmer data, including the creation, reading, updating, deleting, and searching of farmer records.
 
@@ -22,7 +22,7 @@ The Farmer Data Collection Module is a part of the CROPSIGHT - Farm Management S
 - **Village**: The village where the farmer resides (up to 20 characters).
 - **District**: The district where the farmer resides (up to 20 characters).
 
-### Data Generator
+### Part 2 - Data Generator
 
 The Data Generator within the Farmer Data Collection Module creates random farmer records using NumPy. This feature allows for the quick generation of sample data to test the functionality of the system. The generator constructs the following fields randomly:
 
@@ -43,8 +43,19 @@ The data generator uses the following NumPy methods:
 
 By leveraging these methods, the module can efficiently create a diverse set of farmer records for testing and demonstration purposes.
 
+### Part-3 - Rebuild Apps Using Pandas Data Frames + Add new Features "Show Statistics"
 
+In this module, we'll dive into the powerful capabilities of **Pandas** to manipulate and analyze data using DataFrames. Some Pandas methods that are used in this module are:
 
+- **`pd.read_json`**: This method is used to read JSON data from a specified file and convert it into a Pandas DataFrame.
+- **`_.to_json`**: With this method, you can write the contents of a DataFrame to a JSON file.
+- **`pd.DataFrame`**: This function allows you to create a DataFrame from a list of dictionaries.
+- **`pd.concat`**: This method facilitates the concatenation of two or more DataFrames along a particular axis.
+- **`_.values`**: By using this attribute, you can retrieve the underlying values of a DataFrame.
+- **`_.value_counts`**: This method counts the occurrences of each unique value in a specified column of the DataFrame.
+- **`_.iterrows`**: With this method, you can iterate over the rows of a DataFrame one by one, which allows for custom processing and operations on each individual row.
+- **`_.empty`**: This attribute allows you to check whether a DataFrame is empty, helping you to prevent errors that may arise from attempting to perform operations on an empty dataset.
+- **`_.str.contains`**: This method enables you to search for a specific string within a column of the DataFrame, allowing for filtering of data based on text matches.
 
 ### Installation
 
