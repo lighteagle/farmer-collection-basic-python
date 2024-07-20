@@ -57,6 +57,17 @@ In this module, we'll dive into the powerful capabilities of **Pandas** to manip
 - **`_.empty`**: This attribute allows you to check whether a DataFrame is empty, helping you to prevent errors that may arise from attempting to perform operations on an empty dataset.
 - **`_.str.contains`**: This method enables you to search for a specific string within a column of the DataFrame, allowing for filtering of data based on text matches.
 
+## Part 4 - Building an Interactive Farmer Data Collection System with Streamlit
+
+In this part of my series, I transform my basic Python farmer data collection into a more interactive and user-friendly system using Streamlit. This guide will help you create an intuitive interface for managing and visualizing farmer data, making it easier to track and analyze agricultural information.
+
+### Key Features Implemented
+
+- **Interactive Dashboard**: Provides a visual summary of farmer data.
+- **Search Functionality**: Enables quick retrieval of specific farmer details.
+- **CRUD Operations**: Facilitates easy management of farmer data.
+- **Visual Analytics**: Displays data insights through interactive charts.
+
 ### Installation
 
 **Clone the repository**:
